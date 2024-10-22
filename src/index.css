@@ -26,9 +26,7 @@
  height: 400;
   border-radius: 50%;
 }
-.contentSide{
-  margin-top:60px;
-}
+
 
 body {
   width: 100vw;
@@ -151,8 +149,13 @@ li {
  height: 200;
   border-radius: 50%;
 } */
-.imageClass{
-  width:200px;
+.imageClass {
+  width: 80%; /* Responsive width */
+  max-width: 200px; /* Optional maximum width */
+  height: auto; /* Keep aspect ratio */
+  display: block; /* Ensures it behaves like a block element */
+  margin: 0 auto; /* Center the image */
+  border-radius: 50%; /* Circular image */
 }
 
 }

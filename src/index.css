@@ -145,12 +145,12 @@ li {
    .contentSide{
     margin-top:60px;
   }
-  .imgStyle
+  /* .imgStyle
 {
  width: 200;
  height: 200;
   border-radius: 50%;
-}
+} */
 .imageClass{
   width:200px;
 }

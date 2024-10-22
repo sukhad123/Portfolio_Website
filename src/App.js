@@ -4,7 +4,7 @@ import Navbar from  "./Components/navbar"
 import {Example} from "./Components/techStack";
 import Loading from "./loading";
 import { useEffect, useState } from "react";
-
+import SecondParagraph from "./Components/secondPart";
 function App() {
  
 
@@ -17,11 +17,18 @@ function App() {
   if (loading) {
       return <Loading/>
   }
+
+ 
   return (
-    <div>
-  <Example/>
-  <Navbar/>
+    
+    <div  >
+  <Navbar>
+  
+  </Navbar>
+  <SecondParagraph></SecondParagraph>
+  
   </div>
+
      
   );
 }

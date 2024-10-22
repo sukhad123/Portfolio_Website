@@ -10,12 +10,18 @@
  font-style: normal;
  padding: 50px 50px;
 }
-
+.customNavBox
+{
+margin:auto;
+}
 
 /*regular text*/
 .textParagraphStyle{
  width:500px;
 
+}
+.customNavButton{
+  margin-top:20px;
 }
 .imageClass{
   width:300px;
@@ -24,9 +30,12 @@
 {
  width: 400;
  height: 400;
-  border-radius: 50%;
+ border-radius:10%;
+ background-color:#a6a6a6
 }
-
+.contentSide{
+  margin-top:70px;
+}
 
 body {
   width: 100vw;
@@ -40,7 +49,9 @@ body {
   align-items: center;
   }
  
-
+.lado{
+  width:100px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -136,26 +147,25 @@ li {
 @media screen and (max-width:650px)
 {
   .textParagraphStyle{
+   
     font-size:15px;
     width:250px;
+    z-index:auto;
    
    } 
    .contentSide{
-    margin-top:60px;
+    position:absolute;
+    margin-top:115px;
+   
+  
   }
-  /* .imgStyle
+  .imgStyle
 {
- width: 200;
- height: 200;
-  border-radius: 50%;
-} */
-.imageClass {
-  width: 80%; /* Responsive width */
-  max-width: 200px; /* Optional maximum width */
-  height: auto; /* Keep aspect ratio */
-  display: block; /* Ensures it behaves like a block element */
-  margin: 0 auto; /* Center the image */
-  border-radius: 50%; /* Circular image */
-}
+ margin-left:100px;
+ width: 150px;
+ height: 150px;
 
 }
+
+
+  }

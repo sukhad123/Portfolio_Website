@@ -7,9 +7,12 @@ import { useEffect, useState } from "react";
 
 function App() {
  
+
+
+  //loading for 5 seconds
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-      setTimeout(() => setLoading(false), 3300)
+      setTimeout(() => setLoading(false), 5000)
   }, [])
   if (loading) {
       return <Loading/>

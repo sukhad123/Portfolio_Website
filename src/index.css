@@ -8,11 +8,26 @@
  font-weight: 400; /* Normal weight, or adjust between 100 and 900 */
  font-size: 30px; /* This sets the font size */
  font-style: normal;
- padding: 100px 50px;
+ padding: 50px 50px;
 }
 
+
+/*regular text*/
+.textParagraphStyle{
+ width:500px;
+
+}
 .imageClass{
   width:300px;
+}
+.imgStyle
+{
+ width: 400;
+ height: 400;
+  border-radius: 50%;
+}
+.contentSide{
+  margin-top:60px;
 }
 
 body {
@@ -50,7 +65,7 @@ nav {
   left: 0;
   bottom: 0;
   width: 300px;
-  background: #fff;
+  background: #e1aaaa;
 }
 
 button {
@@ -118,4 +133,26 @@ li {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+@media screen and (max-width:650px)
+{
+  .textParagraphStyle{
+    font-size:15px;
+    width:250px;
+   
+   } 
+   .contentSide{
+    margin-top:60px;
+  }
+  .imgStyle
+{
+ width: 200;
+ height: 200;
+  border-radius: 50%;
+}
+.imageClass{
+  width:200px;
+}
+
 }

@@ -66,9 +66,13 @@ loader-container{
     */
     @media screen and (max-width:650px) {
     #loader-container{
-    max-width:399;
+    max-width:399px;
     }
     #loader{
     width:300px;
-    } 
+    }
+    #textParagraphStyle{
+        width:50px;
+       
+       } 
     }

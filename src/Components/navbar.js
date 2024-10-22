@@ -1,4 +1,4 @@
- 
+
 
 export default function Navbar(){{
 
@@ -6,15 +6,18 @@ export default function Navbar(){{
     return<>
     <div className = "customDesign">
  <div className="flex flex-row  ">
-  <div className="basis-1/2">
+  <div  className="basis-1/2 ">
+  <div className = "contentSide"> 
   <h1>Hi,</h1>
   <h1>I am Sukhad</h1>
-  <h1>Aspiring👨‍💻 <br></br>Software Developer</h1>
+
+  <p className = "textParagraphStyle">Software Developer👨‍💻</p>
+  </div>
   </div>
   < div
    className="basis-1/2 ">
    
-  <img  className = "imageClass"src="https://scontent.fyto1-2.fna.fbcdn.net/v/t39.30808-6/279062631_1148583269326559_3585516563066002083_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=LvxMlwHJeSoQ7kNvgGUXLkU&_nc_ht=scontent.fyto1-2.fna&_nc_gid=ACZdXAA33mCML-6WG1pnkm_&oh=00_AYC5XhxzFD89rzeygdADarovfMJ9FhWBrfctw3ZHl7Tfvw&oe=66F44DFB"   alt ="Error loading the image"></img></div>
+  <img   className = " ring ring-red-500 ring-offset-0 imageClass imgStyle"src= "https://scontent.fyto1-1.fna.fbcdn.net/v/t39.30808-6/355257518_1425565634961653_1764245309405635023_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=75neXtW2WakQ7kNvgHUgHT1&_nc_zt=23&_nc_ht=scontent.fyto1-1.fna&_nc_gid=AwJILzMMwL1X06A0E5RH3TF&oh=00_AYDxAXjl6dEljxxGCa2Sj4TokgTKxxhCmE9-dobJMlsOSA&oe=671CF43F"  alt ="Error loading the image"></img></div>
     </div>
   
 </div>
